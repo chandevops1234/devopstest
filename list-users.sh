@@ -25,6 +25,7 @@ function list_users_with_read_access {
         echo "users with read access to ${REPO_OWNER}/${REPO_NAME}:"
         echo $collaborators
      fi
+}
 
 echo "listing users with read access to ${REPO_OWNER}/${REPO_NAME}..."
 list_users_with_read_access
